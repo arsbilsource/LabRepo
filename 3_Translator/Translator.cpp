@@ -1,6 +1,6 @@
 #include "Translator.h"
 
-    /*void Translator::Add(string_view source, string_view target){
+    void Translator::Add(string_view source, string_view target){
         forward.emplace(std::make_pair(source, target));
         auto it = forward.find(std::string(source));
         auto it2 = backward.find(target);
@@ -22,4 +22,4 @@
         if(it != backward.end()){
             return it->second;
         } else return "";
-    }*/
+    }
